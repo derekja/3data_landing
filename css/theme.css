@@ -279,11 +279,11 @@ hr.content-spacer {
 .cp-logo {
     position: relative;
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    background: #fff url(../img/cp.logo.png) 50% 50% no-repeat;
-    background-size: 80px 80px;
+    background: #fff url(../img/vwda.svg) 50% 50% no-repeat;
+    background-size: 180px 180px;
     border: 10px #fff solid;
     margin-top: -105px;
     z-index: 2;
