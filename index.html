@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Cockpit</title>
+    <title>Virtual Worlds for Data Analytics</title>
 
     <!-- Style -->
     <link href="css/uikit.min.css" type="text/css" rel="stylesheet">
@@ -12,16 +12,16 @@
 
     <!-- <base href="/"> -->
 
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38575816-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-84646214-1', 'auto');
+        ga('send', 'pageview');
+
+        </script>
 
   </head>
   <body>
@@ -29,7 +29,7 @@
     <div class="site-header">
       <div class="uk-container uk-container-center">
         <nav class="site-nav-main uk-navbar-attached">
-          <a class="uk-navbar-brand" href="/">Cockpit <span>CMS</span></a>
+          <a class="uk-navbar-brand" href="/">Virtual Worlds for <span>Data Analytics</span></a>
           <div class="uk-navbar-flip">
             <ul class="uk-navbar-nav uk-hidden-small">
               <li class="">
@@ -39,23 +39,8 @@
                 <a href="/docs">Documentation</a>
               </li>
             </ul>
-            <div class="uk-navbar-content uk-hidden-small">
-              <a class="uk-button" href="/download">Download</a>
-            </div>
-            <ul class="uk-navbar-nav nav-secondary uk-hidden-small">
-              <li>
-                <a href="https://plus.google.com/communities/114909939320646034687" data-uk-tooltip="{pos:'bottom'}" title="Community"><span class="uk-icon-comments"></span></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/getcockpit" data-uk-tooltip="{pos:'bottom'}" title="Follow us on twitter"><span class="uk-icon-twitter"></span></a>
-              </li>
-              <li>
-                <a href="https://github.com/aheinze/cockpit" data-uk-tooltip="{pos:'bottom'}" title="Source on Github" target="_blank"><i class="uk-icon-github"></i></a>
-              </li>
-            </ul>
-            <ul class="uk-navbar-nav uk-visible-small">
-                <li><a href="#offcanvas-nav" data-uk-offcanvas>MENU <i class="uk-icon-bars"></i></a></li>
-            </ul>
+
+  
           </div>
         </nav>
       </div>
